@@ -41,7 +41,7 @@
 
 .jumbotron {
     height: 50vh;
-    background-image: url("img/img2.jpg");
+    background-image: url("../img/img2.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,63 +54,54 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.text p {
-    font-size: 14px;
+.founder img{
+    height: 350px;
 }
 
-.fs-7 {
-    font-size: 15px;
+.tujuan .card:hover {
+    border: #1A8EF3 1px solid ;
+    transition: 200ms;
+    transform: scale(1.05);
 }
 
-.card span {
-    font-size: 11px;
-    padding: 2px 5px;
-    margin: 0px 0px;
-    border: #1A8EF3 1px solid;
-    color: #1A8EF3;
-    font-weight: 700;
-}
-
-.Editor .card {
-    border: #1A8EF3 0px solid;
-}
-.tanggal {
-    font-size: 13px;
-}
-
-.trending p {
-    font-size: 13px;
-}
-.trending .card {
-    border: #1A8EF3 0px solid;
-}
-
-.filter-topic span{
-    border: #1A8EF3 1px solid;
-    color: #1A8EF3;
-    font-weight: 700;
-}
-
-.container .filter-topic p {
+.container.portofolio .filter{
     background-color: #cecdca;
 }
-
-.container .filter-topic p:hover {
+.container.portofolio .filter:hover {
     background-color: #1A8EF3;
     cursor: pointer;
 }
 
-
-.hover-text-biru:hover{
-    color: #1A8EF3 !important;
+.portofolio .text {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.card-title:hover{
-    color: #1A8EF3;
+.card .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1A8EF3;
     cursor: pointer;
-} 
+}
 
-.explore .card:hover {
-    border: #1A8EF3 1px solid;
+.card:hover .overlay {
+    opacity: 0.7;
+}
+
+.portofolio .active {
+    background-color: #1A8EF3 !important;
 }
