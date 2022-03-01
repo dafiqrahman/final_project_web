@@ -1,0 +1,116 @@
+.bg-kuning {
+    background-color: #2B2B2A !important;
+}
+
+.bg-biru {
+    background-color: #1A8EF3 !important;
+}
+
+.font-biru {
+    color: #1A8EF3 !important;
+}
+
+.font_catamaran {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.font_Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-gelap {
+    color: #2B2B2A !important;
+}
+
+.font-kuning {
+    color: #FFE300 !important;
+}
+
+.font_work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .font-gelap:hover {
+    color: #111A8EF3 !important;
+}
+
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.jumbotron {
+    height: 50vh;
+    background-image: url("img/img2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* overlay */
+}
+
+.jumbotron .about {
+    /* make box with black color */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.text p {
+    font-size: 14px;
+}
+
+.fs-7 {
+    font-size: 15px;
+}
+
+.card span {
+    font-size: 11px;
+    padding: 2px 5px;
+    margin: 0px 0px;
+    border: #1A8EF3 1px solid;
+    color: #1A8EF3;
+    font-weight: 700;
+}
+
+.Editor .card {
+    border: #1A8EF3 0px solid;
+}
+.tanggal {
+    font-size: 13px;
+}
+
+.trending p {
+    font-size: 13px;
+}
+.trending .card {
+    border: #1A8EF3 0px solid;
+}
+
+.filter-topic span{
+    border: #1A8EF3 1px solid;
+    color: #1A8EF3;
+    font-weight: 700;
+}
+
+.container .filter-topic p {
+    background-color: #cecdca;
+}
+
+.container .filter-topic p:hover {
+    background-color: #1A8EF3;
+    cursor: pointer;
+}
+
+
+.hover-text-biru:hover{
+    color: #1A8EF3 !important;
+}
+
+.card-title:hover{
+    color: #1A8EF3;
+    cursor: pointer;
+} 
+
+.explore .card:hover {
+    border: #1A8EF3 1px solid;
+}

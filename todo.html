@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/745c0ac10a.js" crossorigin="anonymous"></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style_todo.css">
+    <title>MB Website</title>
+</head>
+
+<body>
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg bg-kuning  navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-biru font_Montserrat fs-3 p-0" href="#"><b>Promoin</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end    " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-md-5 mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-biru font_work fs-6 " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white font_work fs-6" href="todo.html">To Do's</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <div class="container my-5">
+        <h1 class="text-center font_Montserrat text-white">To Do List App</h1>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-6 font_work">
+                <div class="card shadow text-white px-5 py-2">
+                    <div class="row justify-content-center">
+
+                        <div class=" col-8">
+                            <!-- tanggal -->
+                            <div class="tanggal text-center mt-3">
+                                <h3 class="nama_hari">Masukkan Kegiatan</h3>
+
+                            </div>
+                            <!-- end of tanggal -->
+                        </div>
+
+                    </div>
+                    <div class="add-item my-2">
+                        <div class="col-12 ">
+                            <label class="visually-hidden" for="inlineFormInputGroupUsername"></label>
+                            <div class="input-group">
+                                <!-- input -->
+                                <input type="text" class="form-control input_task shadow-none"
+                                    id="inlineFormInputGroupUsername" placeholder="Add a task...">
+                                <div class="input-group-text add p-0 pointer  enter m-0"><i
+                                        class="fi-xwluxl-return-sign-wide fs-3 arrow-enter px-3 m-0"></i>
+                                </div>
+                                <!-- end of input -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item-container">
+                        <!-- item with check box -->
+                        <div class="item py-3">
+                            <div class="row list-item">
+                                <!-- item -->
+
+                                <!-- end of item -->
+                                <div class="col-2 text-end ">
+                                    <!-- dropdown menu -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <!-- Footer -->
+    <footer class=" bg-dark text-muted mt-4 bottom">
+        <hr class="m-0">
+        <div class="container font_Montserrat">
+            <div class="row py-5 px-2 justify-content-center">
+                <div class="col-md-3">
+                    <h3 class="font-biru">Promoin</h3>
+                    <p class="font_work fs-7">Promoin merupakan aplikasi website yang
+                        berguna untuk mencari promo /
+                        bundle
+                        yang
+                        tepat untuk
+                        produk anda sesuai dengan history/riwayat pembelian pelanggan
+                        anda</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="font-biru">Contact</h3>
+                    <p><i class="fas fa-home me-3"></i> Semarang, Indonesia</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        promo.in@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> 083 838 286 959 </p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="font-biru">Notify Me </h3>
+                    <P class="font_work fs-7">Tetap up to date dengan produk kami</P>
+                    <form class="row row-cols-lg-auto g-3 bg-dark align-items-center">
+                        <div class="col-8">
+                            <label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Email">
+                                <div class="input-group-text pe-0 font-biru bg-dark"> <i
+                                        class="fas fa-envelope me-3"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- akhir footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            var todo = JSON.parse(localStorage.getItem("todo"));
+            if (todo == null) {
+                todo = []
+            }
+
+
+
+            var show_item = function () {
+                var todo_item = todo;
+                var html = "";
+
+                for (var i = 0; i < todo_item.length; i++) {
+                    if (todo_item[i].status == "done") {
+                        var status = `<input
+                class="form-check-input check-box fs-4 me-2 mt-0 " type="checkbox" value="" id="flexCheckDefault"
+                checked>`
+                        var strike = `<h5 class="done"> ${todo_item[i].nama}</h5>`
+                    } else {
+                        var status = `<input class="form-check-input check-box fs-4 me-2 mt-0 " type="checkbox" value=""
+                    id="flexCheckDefault">`
+                        var strike = `<h5> ${todo_item[i].nama}</h5>`
+                    }
+
+                    html += `<div class="item py-3">
+                    <div class="row list-item">
+                        <!-- item -->
+                        <div class="col-10">
+                            ${status}
+                            <label class="form-check-label" for="flexCheckDefault">
+                                ${strike}
+                            </label>
+                        </div>
+                        <!-- end of item -->
+                        <div class="col-2 text-end ">
+                            <!-- dropdown menu -->
+                            <i class="fas fa-solid fa-trash pointer enter delete"></i>
+                        </div>
+                    </div>
+                </div>`;
+                }
+
+                $(".list-item").html(html);
+            }
+
+            show_item()
+
+
+
+
+            // show item
+
+
+            show_item()
+            // input task
+            $(".input_task").keypress(function (event) {
+                if (event.which == 13 && $(this).val() != "") {
+                    // get val
+                    var task = $(this).val();
+                    todo.push({
+                        nama: task,
+                        status: "undone"
+                    });
+                    localStorage.setItem("todo", JSON.stringify(todo));
+                    $(this).val("");
+                    show_item();
+                }
+            });
+            $('.arrow-enter').click(function () {
+                var task = $('.input_task').val();
+                if (task != "") {
+                    todo.push({
+                        nama: task,
+                        status: "undone"
+                    });
+                    localStorage.setItem("todo", JSON.stringify(todo));
+                    $(".input_task").val("");
+                    show_item();
+                }
+            });
+            // delete item
+            $(".list-item").on("click", ".delete", function () {
+                var index = $(this).parent().parent().parent().index();
+                todo.splice(index, 1);
+                localStorage.setItem("todo", JSON.stringify(todo));
+                show_item();
+                console.log(index)
+            });
+
+            // done status
+            $(".list-item").on("click", ".check-box", function () {
+                var index = $(this).parent().parent().parent().index();
+                if (todo[index].status == "undone") {
+                    todo[index].status = "done";
+                } else {
+                    todo[index].status = "undone";
+                }
+                localStorage.setItem("todo", JSON.stringify(todo));
+                show_item();
+            });
+        });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+.bg-kuning {
+    background-color: #2B2B2A !important;
+}
+
+.bg-biru {
+    background-color: #1A8EF3 !important;
+}
+
+.font-biru {
+    color: #1A8EF3 !important;
+}
+
+.font_catamaran {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.font_Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-gelap {
+    color: #2B2B2A !important;
+}
+
+.font-kuning {
+    color: #FFE300 !important;
+}
+
+.font_work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .font-gelap:hover {
+    color: #111A8EF3 !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+body {
+    background-color: #1A8EF3;
+    height: 100%;
+}
+
+.card {
+    background-color: #3c424a;
+    border-radius: 8px;
+}
+
+.add {
+    background-color: #343a40 !important;
+    border: #343a40 1px solid ;
+    color: #9da5ae;
+}
+input[type=text],
+textarea {
+    border: #343a40 1px solid;
+    background-color: #343a40;
+    outline: none !important;
+    color: #9da5ae;
+}
+
+input[type="text"]:focus,
+textarea:focus{
+    /* border: #343a40 1px solid !important; */
+    background-color: #343a40;
+    color: #9da5ae;
+}
+*:focus {
+    outline: none !important;
+}
+
+.titik {
+    color: #9da5ae;
+    background-color: #3c424a;
+    border: none;
+}
+
+.container .check-box:checked{
+    background-color: #343a40 !important;
+    border: #343a40 1px solid;
+}
+.check-box {
+    background-color: #343a40 !important;
+    border: #2B2B2A 1px solid;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.pointer.enter:hover {
+    color: #2B2B2A;
+}
+
+.img-fluid {
+    width: 40%;
+    height: auto;
+}
+
+.done {
+   text-decoration: line-through;
+   text-decoration-color: #1A8EF3;
+   text-decoration-thickness: 3px;
+}

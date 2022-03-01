@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/745c0ac10a.js" crossorigin="anonymous"></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>MB Website</title>
+</head>
+
+<body>
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg bg-kuning  navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-biru font_Montserrat fs-3 p-0" href="#"><b>Promoin</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end    " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-md-5 mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white font_work fs-6" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-biru font_work fs-6" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  font-biru font_work fs-6" href="todo.html">To Do's</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jumbotron  -->
+    <div class="jumbotron overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 py-4 text-center m-auto box font-biru">
+                    <h4 class="text-white font_Montserrat m-0">Selamat Datang di <span class="font-biru">Promoin</span>
+                    </h4>
+                    <h1 class="font_work">Dapatkan Promo yang Tepat Untuk Produk Anda</h1>
+                    <p class="font-Montserrat fs-6 text-white"><span class="font-biru">Promoin</span> merupakan suatu
+                        aplikasi yang bisa
+                        menemukan
+                        promo
+                        yang tepat
+                        sesuai
+                        dengan riwayat pelanggan anda</p>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-12 mt-3 text-center">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="btn btn-primary coba px-5 fw-bold mt-0  fs-4 font_Montserrat ">Coba Gratis !</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body ">
+                    <table class="table table-bordered font_Montserrat">
+                        <thead>
+                            <tr class="bg-primary text-white font_Montserrat text-center">
+                                <th scope=" col" class="p-3 fs-5">Fitur Promoin</th>
+                                <th scope="col" class="p-3 fs-5">Free</th>
+                                <th scope="col" class="p-3 fs-5">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text_td">Promoin Finder</td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green"></i></td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green"></i></td>
+                            </tr>
+                            <tr>
+
+                                <td class="text_td">Batas Data</td>
+                                <td class="text-center">Maks. 20k Data</td>
+                                <td class="text-center fw-bold">Up to 50k Data</td>
+                            </tr>
+                            <tr>
+                                <td class="text_td">Segmentasi Pelanggan</td>
+                                <td class="text-center "><i class="fi-xnsuxl-times-solid font-red"></i></td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green "></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text_td">Bonus Visualisasi</td>
+                                <td class="text-center "><i class="fi-xnsuxl-times-solid font-red"></i></td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green "></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text_td">Bantuan Langsung</td>
+                                <td class="text-center "><i class="fi-xnsuxl-times-solid font-red"></i></td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green "></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text_td">Get Promoin News</td>
+                                <td class="text-center "><i class="fi-xwsuxl-check font-green "></i></td>
+                                <td class="text-center"><i class="fi-xwsuxl-check font-green "></i></td>
+                            </tr>
+                            <tr>
+                                <td class="text_td">Harga *</td>
+                                <td class="text-center">Rp. 0</td>
+                                <td class="text-center">Rp 250.000</td>
+                            </tr>
+                            <tr class="table_button">
+                                <td class="text_td table_button_tes"></td>
+                                <td class=" text-center"><button type="button"
+                                        class="btn btn-primary font_Montserrat ">Pilih Paket</button></td>
+                                <td class="text-center"><button type="button"
+                                        class="btn btn-primary font_Montserrat ">Pilih Paket</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="text-muted font_Montserrat keterangan">
+                        <p>* Harga Diatas Merupakan Harga per Analisis</p>
+                    </div>
+                </div>
+                <div class=" modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- awal Summary Promoin -->
+
+    <div class="summary py-5 ">
+        <div class="container py-4 my-5">
+            <div class="row">
+                <div data-aos="zoom-in" class="col-md-12 mt-3">
+                    <h2 class=" font_Montserrat text-white text-center fw-bold fs-1"> Summary Promoin</h2>
+                    <p class="text-center font_Montserrat fw-bold">apa itu promoin ? </p>
+                </div>
+            </div>
+            <div data-aos="zoom-in" class="isi_summary mt-5">
+                <div id="carouselExampleControls" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center font_Montserrat">
+                                <div class="col-md-8 ">
+                                    <div class="card p-3 text-white">
+                                        <h3 class="text-white fs-3"> About Promoin</h3>
+                                        <hr>
+                                        <p class="fs-6"><b>Promoin</b> merupakan aplikasi website yang berguna untuk
+                                            mencari promo /
+                                            bundle
+                                            yang tepat
+                                            untuk
+                                            produk anda sesuai dengan history/riwayat pembelian pelanggan anda</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center font_Montserrat">
+                                <div class="col-md-8 ">
+                                    <div class="card p-3 text-white">
+
+
+                                        <h3 class="fs-3"> Promoin Requirement </h3>
+                                        <hr>
+                                        <p class="fs-6"> Untuk menggunakan aplikasi <b>Promoin</b>,<b>Promoin</b>
+                                            hanya
+                                            memerlukan
+                                            dataset
+                                            berupa
+                                            history transaksi bisnis users, datasets POS seperti Moka POS, MAJOO,
+                                            dan
+                                            aplikasi POS lainnya.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center font_Montserrat">
+                                <div class="col-md-8 ">
+                                    <div class="card p-3 text-white">
+                                        <h3>Promoin Target</h3>
+                                        <hr>
+                                        <p><b>Promoin</b> ditujukan kepada para pengusaha UMKM ,terutama pada bisnis
+                                            makanan
+                                            atau cafe seabgai aplikasi untuk memudahkan menentukan paket promo yang
+                                            cocok untuk pelanggan mereka</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev controller" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next controller" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- akhir summary promoin -->
+
+
+    <!-- How it Works -->
+    <div class="hiw py-5">
+        <div class="container my-5 ">
+            <div class="row">
+                <div data-aos="fade-up" class="col-md-12 mt-3">
+                    <h2 class=" font_Montserrat font-biru text-center fw-bold fs-1"> Cara Kerja Promoin</h2>
+                    <p class="text-center text-white font_Montserrat fw-bold">3 Langkah dalam Promoin </p>
+                </div>
+            </div>
+            <div class="row font_Montserrat justify-content-center mt-5 pt-5 p-2">
+                <div class="col-md-4 col-lg-3 mb-2">
+                    <div data-aos="zoom-in" data-aos-delay="0" class="card px-3 pt-4 pb-5 h-100">
+                        <div class="text-center ">
+                            <img src="img/langka_1.png" class="card-img-top" alt="">
+                        </div>
+                        <hr>
+                        <h4 class="fw-bolder font-gelap text-center">Masukkan Data Penjualan</h4>
+                        <p class="font-gelap fw-bold font_Montserrat">masukkan data penjualan anda, data dapat berasal
+                            dari aplikasi POS anda,untuk saat ini <span class="font-biru">Promoin support pada data
+                                hasil Moka POS, MAJOO, AIO.</span>
+                            <br>Jika data tidak berasal dari POS yang tersedia, pastika format data sesuai dengan
+                            kriteria </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-2">
+                    <div data-aos="zoom-in" data-aos-delay="200" class="card px-3 h-100 ">
+                        <div class="text-center ">
+                            <img src="img/langkah_2.jpg" class="card-img-top mt-4" alt="">
+                        </div>
+                        <hr>
+                        <h4 class="fw-bolder font-gelap text-center">Promoin Akan Mencari Pola</h4>
+                        <p class="font-gelap fw-bold font_Montserrat ">Promoin mencari promo yang sesuai dengan produk
+                            anda dengan mencari pola dari pembelian pelanggan anda. <span class="font-biru"> Semakin
+                                banyak data yang anda
+                                berikan</span>, maka promo yang diberikan oleh Promoin akan lebih tepat>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-2 ">
+                    <div data-aos="zoom-in" data-aos-delay="400" class="card px-3 pt-4 pb-5 h-100  ">
+                        <div class="text-center ">
+                            <img src="img/langkah_3.png" class="card-img-top" alt="">
+                        </div>
+                        <hr>
+                        <h4 class="fw-bolder font-gelap text-center">Cek Rekomendasi Promoin</h4>
+                        <p class="font-gelap fw-bold font_Montserrat ">Lihat rekomendasi yang diberikan oleh Promoin,
+                            tidak hanya hasil rekomendasi saja,<span class="font-biru"> Promoin juga memeberikan
+                                sebarapa yakin promo yang diberikan </span>
+                            diberikan oleh anda. Keputusan ada di tangan anda </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End How it Works -->
+
+
+    <!-- Pricing -->
+
+    <div class="container mt-5 py-5">
+        <div data-aos="zoom-in" class="row text-center font_Montserrat">
+            <h1>Pricing</h1>
+            <p>Pilihan Paket Promoin</p>
+        </div>
+        <div class="row font_Montserrat">
+            <div class="col-lg-4 my-3 py-3">
+                <h2 data-aos="fade-up" data-aos-delay="0">
+                    Anda bisa mencoba Promoin sekarang dengan gratis !! <br> <br> <b>Jika anda ingin mendapatkan fitur
+                        lebih,</b>
+                    kami
+                    menyediakan paket yang sesuai untuk anda
+                </h2>
+            </div>
+            <div class="col-lg-8">
+                <div class="container">
+                    <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500"
+                        class="row justify-content-end mt-5">
+                        <div class="col-md-6 col-lg-4  mb-sm-5">
+                            <div class="card py-4 free px-3 h-100">
+                                <div class="harga text-center  mb-3">
+                                    <h2 class="font-biru">FREE</h2>
+                                    <h2>Rp 0</h2>
+                                </div>
+                                <hr>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i> Promo Finder
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i> batas 20k Data
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xnsuxl-times-solid font-red"></i>
+                                    Segmentasi Pelanggan
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xnsuxl-times-solid font-red"></i>
+                                    Bonus Visualisasi
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xnsuxl-times-solid font-red"></i>
+                                    Bantuan Langsung
+                                </p>
+                                <button type="button" class="btn btn-primary fs- font_Montserrat ">Pilih Paket</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
+                            <div class="card py-5 py-lg-4 px-3  premium">
+                                <div class="harga text-center">
+                                    <h2 class="font-kuning">Premium</h2>
+                                    <h4>Rp 250.000 / Analisis</h4>
+                                </div>
+                                <hr>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i> Promo Finder
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i> Up To 50k data
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i>
+                                    Segmentasi Pelanggan
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i>
+                                    Bonus Visualisasi
+                                </p>
+                                <p class="font-gelap fw-bold font_Montserrat "><i
+                                        class="fi-xwsuxl-check font-green"></i>
+                                    Bantuan Langsung
+                                </p>
+                                <button type="button" class="btn btn-primary font_Montserrat ">Pilih Paket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Pricing -->
+
+
+
+
+
+
+    <!-- akhir navbar -->
+
+
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div data-aos="zoom-in" class="row text-center font_Montserrat">
+                <h1>Reviews</h1>
+                <p>Ulasan Pengguna Promoin</p>
+            </div>
+        </div>
+        <div data-aos="fade-up" class="row my-5">
+            <div class="col-md-4 mb-2">
+                <a class="text-decoration-none" href="#">Lihat Lebih Banyak Review <i class="fi-xnlrxl-chevron"></i>
+                </a>
+            </div>
+            <div class="owl-carousel owl-theme font_Montserrat">
+                <div class="item">
+                    <div class="card p-2">
+                        <div class="card-body">
+                            <div class="info_pengguna">
+                                <div class="row">
+                                    <div class="col-md-3 ">
+                                        <img class=" mx-auto d-block image_pengguna" src="img/foto1.JPG" alt="">
+                                    </div>
+                                    <div class="col-md-9 py-2 text-center text-md-start">
+                                        <h5 class="fw-bold">Syair Dafiq Faizur Rahman</h5>
+                                        <p class="font-biru">CEO of Semarang CafeHouse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text mt-3">Sangat membantu dalam menjalankan bisnis saya. Mempermudah dan
+                                mempercepat perkerjaan.Aplikasinya gampang banget dioperasikan.Terima kasih Promoin</p>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class=" item">
+                    <div class="card p-2">
+                        <div class="card-body">
+                            <div class="info_pengguna">
+                                <div class="row">
+                                    <div class="col-md-3 ">
+                                        <img class=" mx-auto d-block image_pengguna" src="img/foto1.JPG" alt="">
+                                    </div>
+                                    <div class="col-md-9 py-2 text-center text-md-start">
+                                        <h5 class="fw-bold">Syair Dafiq Faizur Rahman</h5>
+                                        <p class="font-biru">CEO of Semarang CafeHouse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text mt-3">Sangat membantu dalam menjalankan bisnis saya. Mempermudah dan
+                                mempercepat perkerjaan.Aplikasinya gampang banget dioperasikan.Terima kasih Promoin</p>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-2">
+                        <div class="card-body">
+                            <div class="info_pengguna">
+                                <div class="row">
+                                    <div class="col-md-3 ">
+                                        <img class=" mx-auto d-block image_pengguna" src="img/foto1.JPG" alt="">
+                                    </div>
+                                    <div class="col-md-9 py-2 text-center text-md-start">
+                                        <h5 class="fw-bold">Syair Dafiq Faizur Rahman</h5>
+                                        <p class="font-biru">CEO of Semarang CafeHouse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text mt-3">Sangat membantu dalam menjalankan bisnis saya. Mempermudah dan
+                                mempercepat perkerjaan.Aplikasinya gampang banget dioperasikan.Terima kasih Promoin</p>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-2">
+                        <div class="card-body">
+                            <div class="info_pengguna">
+                                <div class="row">
+                                    <div class="col-md-3 ">
+                                        <img class=" mx-auto d-block image_pengguna" src="img/foto1.JPG" alt="">
+                                    </div>
+                                    <div class="col-md-9 py-2 text-center text-md-start">
+                                        <h5 class="fw-bold">Syair Dafiq Faizur Rahman</h5>
+                                        <p class="font-biru">CEO of Semarang CafeHouse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text mt-3">Sangat membantu dalam menjalankan bisnis saya. Mempermudah dan
+                                mempercepat perkerjaan.Aplikasinya gampang banget dioperasikan.Terima kasih Promoin</p>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class=" fi-xnsuxl-star-solid font-kuning"></i>
+                            <i class="fi-xnsuxl-star-solid font-kuning"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <!-- Footer -->
+    <footer class=" bg-dark text-muted mt-4">
+        <div class="container bg-dark">
+
+        </div>
+        <hr class="m-0">
+        <div class="container font_Montserrat">
+            <div class="row py-5 px-2 justify-content-center">
+                <div class="col-md-3">
+                    <h3 class="font-biru">Promoin</h3>
+                    <p class=" ">Promoin merupakan aplikasi website yang berguna untuk mencari promo / bundle
+                        yang
+                        tepat untuk
+                        produk anda sesuai dengan history/riwayat pembelian pelanggan anda</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="font-biru">Contact</h3>
+                    <p><i class="fas fa-home me-3"></i> Semarang, Indonesia</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        promo.in@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> 083 838 286 959 </p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="font-biru">Notify Me </h3>
+                    <P>Tetap up to date dengan produk kami</P>
+                    <form class="row row-cols-lg-auto g-3 bg-dark align-items-center">
+                        <div class="col-8">
+                            <label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Email">
+                                <div class="input-group-text pe-0 font-biru bg-dark"> <i
+                                        class="fas fa-envelope me-3"></i></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <!-- akhir footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            })
+        });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

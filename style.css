@@ -1,0 +1,156 @@
+.bg-kuning {
+    background-color: #2B2B2A    !important;
+}
+
+.bg-biru{
+    background-color: #1A8EF3    !important;
+}
+
+.font-biru {
+    color: #1A8EF3 !important;
+}
+
+.font_catamaran {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.font_Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-gelap {
+    color: #2B2B2A !important;
+}
+.font-kuning {
+    color: #FFE300 !important;
+}
+
+.font_work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .font-gelap:hover {
+    color: #111A8EF3 !important;
+}
+
+
+.nav-link:hover {
+    color: white !important;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    height: 100vh;
+    background-image: url("img/img2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* overlay */
+}
+
+.jumbotron .col-md-8 {
+    margin-top: 25vh !important;
+}
+.jumbotron .box{
+    /* make box with black color */
+    background-color: rgba(0,0,0,0.5);
+}
+
+.coba {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: #2B2B2A;
+}
+
+.coba:hover {
+     color: white;
+ 
+}
+.coba {
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #1A8EF3;
+} 
+
+
+
+/* summary */
+.summary {
+    background-color: #1A8EF3;;
+}
+
+.summary .card {
+    background-color: transparent;
+    height: 230px;
+    border: #2B2B2A;
+}
+
+
+/* end summary */
+
+
+/* HIW */
+.hiw {
+    background-color: #2B2B2A;
+}
+.hiw .card {
+    background-color: white;
+    border: #1A8EF3 3px solid;
+}
+.hiw img{
+    width: 150px;
+    height : 150px;
+}
+
+/* HIW */
+
+
+.font-green {
+    color: greenyellow !important;
+}
+
+.font-red {
+    color : red !important
+}
+
+.premium {
+    border: #FFE300 3px solid;
+    transform : scale(1.1)
+}
+
+.free {
+    border: #1A8EF3 3px solid;
+}
+
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+
+.text_td{
+    font-size: 15px;
+}
+
+.keterangan p {
+    font-size: 10px;
+}
+
+.image_pengguna{
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .controller{
+        margin-top: 250px;
+    }
+}

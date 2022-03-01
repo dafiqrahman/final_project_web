@@ -1,0 +1,107 @@
+.bg-kuning {
+    background-color: #2B2B2A !important;
+}
+
+.bg-biru {
+    background-color: #1A8EF3 !important;
+}
+
+.font-biru {
+    color: #1A8EF3 !important;
+}
+
+.font_catamaran {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.font_Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-gelap {
+    color: #2B2B2A !important;
+}
+
+.font-kuning {
+    color: #FFE300 !important;
+}
+
+.font_work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .font-gelap:hover {
+    color: #111A8EF3 !important;
+}
+
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.jumbotron {
+    height: 50vh;
+    background-image: url("img/img2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* overlay */
+}
+
+.jumbotron .about {
+    /* make box with black color */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.founder img{
+    height: 350px;
+}
+
+.tujuan .card:hover {
+    border: #1A8EF3 1px solid ;
+    transition: 200ms;
+    transform: scale(1.05);
+}
+
+.container.portofolio .filter{
+    background-color: #cecdca;
+}
+.container.portofolio .filter:hover {
+    background-color: #1A8EF3;
+    cursor: pointer;
+}
+
+.portofolio .text {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1A8EF3;
+    cursor: pointer;
+}
+
+.card:hover .overlay {
+    opacity: 0.7;
+}
+
+.portofolio .active {
+    background-color: #1A8EF3 !important;
+}
